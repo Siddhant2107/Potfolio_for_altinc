@@ -51,6 +51,7 @@ export const ExperienceSection: React.FC = () => {
               <div className="text-gray-400 text-lg leading-relaxed space-y-2">
                 <p>I know how to think like a user.</p>
                 <p>Research is non negotiable for me.</p>
+                <p>I love to ideate and build whatever I have in mind so to communicate better.</p>
                 <p>I love diving into real stories of users and their frustrations, their workarounds, their quiet needs.</p>
               </div>
             </div>
