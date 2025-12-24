@@ -50,11 +50,11 @@ export const ProjectSection: React.FC = () => {
                 className="w-full h-[500px] object-cover transform group-hover:scale-110 transition-transform duration-1000 brightness-[0.4] group-hover:brightness-75"
               />
               
-              {/* Data Overlay Decorations */}
+              {/* Data Overlay Decorations - FIXED JSX ESCAPING HERE */}
               <div className="absolute top-6 left-6 font-mono text-[10px] text-lime/50 group-hover:text-lime transition-colors space-y-1">
-                <div>> ANALYZING_TRIALS...</div>
-                <div>> PREDICTING_SUCCESS_RATE...</div>
-                <div>> NEURAL_NET_ACTIVE</div>
+                <div>{">"} ANALYZING_TRIALS...</div>
+                <div>{">"} PREDICTING_SUCCESS_RATE...</div>
+                <div>{">"} NEURAL_NET_ACTIVE</div>
               </div>
               
               <div className="absolute bottom-6 right-6 font-mono text-[10px] text-lime/50 group-hover:text-lime transition-colors">
